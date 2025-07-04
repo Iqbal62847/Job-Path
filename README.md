@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# 🧭 Job Path
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Job Path** — your companion for discovering and landing your next opportunity. This React Native mobile app helps you search for jobs, browse popular listings, explore nearby openings, and apply directly — all from your phone, with just a few taps.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- **🔍 Smart Job Search**
+  Search by job title, company name, or keywords to find exactly what you're looking for.
 
-   ```bash
-   npm install
-   ```
+- **🔥 Popular Jobs**
+  See what's trending and in-demand in your area or industry.
 
-2. Start the app
+- **📍 Nearby Jobs**
+  Find jobs based on your current location — great for local opportunities.
 
-   ```bash
-   npx expo start
-   ```
+- **✅ Apply Instantly**
+  Found a job you like? You can apply with no hassle.
 
-In the output, you'll find options to open the app in a
+## 🛠️ Built With
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native** – Cross-platform mobile app framework
+- **React Navigation** – Seamless screen transitions
+- **Expo** – Fast development and testing
+- **JSearch API** – For fetching and posting job data
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📦 Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+To run **Job Path** locally:
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/job-path.git
+cd job-path
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Make sure you have **Node.js**, **Expo CLI**, and either a mobile emulator or the **Expo Go app** installed.
 
-## Learn more
+## 🧪 Testing
 
-To learn more about developing your project with Expo, look at the following resources:
+Test it out on:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- 📱 Android (emulator or physical device)
+- 🍎 iOS (Xcode simulator or via Expo on device)
 
-## Join the community
+## 🤝 Contributing
 
-Join our community of developers creating universal apps.
+Got ideas? Found a bug? Contributions are always welcome!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Fork the repo
+- Create a new branch
+- Submit a pull request
+- Or open an issue to start a discussion
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thanks for checking out **Job Path**. We hope it helps you find your next big opportunity! 🚀
+
+Let me know if you want to include things like Bookmark, an API guide, or future roadmap!
