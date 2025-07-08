@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "job-search",
-    "slug": "job-search",
+    "name": "Job Path",
+    "slug": "Path",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/navigation.webp",
