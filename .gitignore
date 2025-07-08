@@ -8,7 +8,7 @@ node_modules/
 .expo/
 dist/
 web-build/
-/hook/useFetch.js
+hook/useFetch.js
 expo-env.d.ts
 
 # Native
