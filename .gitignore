@@ -9,6 +9,8 @@ node_modules/
 dist/
 web-build/
 hook/useFetch.js
+keys.js
+fakeData.js
 expo-env.d.ts
 
 # Native

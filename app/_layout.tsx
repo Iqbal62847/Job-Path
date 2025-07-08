@@ -1,7 +1,8 @@
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useFonts } from "expo-font";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
+import { ActivityIndicator } from "react-native";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -12,14 +13,24 @@ export default function RootLayout() {
     DMRegular: require("../assets/fonts/DMSans-Regular.ttf"),
   });
 
-  const onLayoutRootView = useCallback(async () => {
+  // const onLayoutRootView = useCallback(async () => {
+  //   if (fontsLoaded) {
+  //     await SplashScreen.hideAsync();
+  //   }
+  // }, [fontsLoaded]);
+
+  // if (!fontsLoaded) return null;
+
+  useEffect(() => {
     if (fontsLoaded) {
-      await SplashScreen.hideAsync();
+      SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);
 
-  if (!fontsLoaded) return null;
-
+  if (!fontsLoaded) {
+    // return null; // or custom splash scree
+    return <ActivityIndicator size="large" />;
+  }
   // return <Stack layout={onLayoutRootView} />;
   return <Stack />;
 }
