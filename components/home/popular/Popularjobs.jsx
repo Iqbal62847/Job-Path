@@ -10,7 +10,7 @@ import {
 
 import { COLORS, SIZES } from "@/constants";
 import PopularJobCard from "@/components/common/cards/popular/PopularJobCard";
-import useFetch from "@/hook/useFetch";
+import useFetch from "@/hooks/useFetch";
 
 import styles from "./popularjobs.style";
 
