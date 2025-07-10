@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Job Path",
-    "slug": "Path",
+    "slug": "Job-Path",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/navigation.webp",
-    "scheme": "jobsearch",
+    "icon": "./assets/images/growth.png",
+    "scheme": "job-path",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,23 +13,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/navigation.webp",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/growth.png",
+        "backgroundColor": "#FAFAFC"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.ishu62847.jobsearch"
+      "package": "com.ishu62847.Job_Path"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/navigation.webp"
+      "favicon": "./assets/images/growth.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/navigation.webp",
+          "image": "./assets/images/growth.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -42,7 +42,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "f3813746-4aa8-4d66-82bf-c1833bcdcff3"
+        "projectId": "57fc4eda-e465-4f42-b365-d8ec3e4adeff"
       }
     }
   }
