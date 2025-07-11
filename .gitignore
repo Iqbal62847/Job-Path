@@ -8,6 +8,7 @@ node_modules/
 .expo/
 dist/
 web-build/
+keys.js
 fakeData.js
 expo-env.d.ts
 
